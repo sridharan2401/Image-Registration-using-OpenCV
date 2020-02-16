@@ -31,8 +31,8 @@ def transform(testimage,originalimage):
     # sorting matches 
     matches.sort(key = lambda x: x.distance) 
     
-    #selecting top 90% matches 
-    matches = matches[:int(len(matches)*90)] 
+    #selecting top 85% matches 
+    matches = matches[:int(len(matches)*85)] 
     no_of_matches = len(matches) 
     
     drawmatches = cv2.drawMatches(testimage,kp1,originalimage,kp2,matches,None)
