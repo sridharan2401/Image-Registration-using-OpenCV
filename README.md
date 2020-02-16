@@ -16,10 +16,10 @@ This is a task done for a Utvyakta Internship for academic year 2020.
 	Image registration is a digital image processing technique which helps in align different images of the same scene. For instance, sample/test images which is rotated or scaled or offset or combination of all these can align according to the original image.
   
 # Image Registration Process:
-•	Converted both test image and original image to grayscale.
-•	ORB (Oriented FAST and Rotated BRIEF) is used to detect and compute keypoints and its associated descriptors of test image and original image.
-•	Match features from the image to be aligned i.e. test image, to the original or reference image and store the coordinates of the corresponding keypoints. Keypoints are simply the selected few points which are used to compute the transform, and descriptors are histograms of the image gradients to characterize the appearance of a keypoint.
-•	Brute Force Matcher with Hamming distance as a measure mode is used for matching keypoints of both test image and reference image.	
-•	Sorted the matches to pick the top matches and remove the noisy matches. Top 90% matches are selected.
-•	Homography is obtained for the keypoints of both images. RANSAC	(Random sample Consensus) algorithm is used to avoid outliers.
-•	Apply homography transform the test image according to the original image.
+1.	Converted both test image and original image to grayscale.
+2.	ORB (Oriented FAST and Rotated BRIEF) is used to detect and compute keypoints and its associated descriptors of test image and original image.
+3.	Match features from the image to be aligned i.e. test image, to the original or reference image and store the coordinates of the corresponding keypoints. Keypoints are simply the selected few points which are used to compute the transform, and descriptors are histograms of the image gradients to characterize the appearance of a keypoint.
+4.	Brute Force Matcher with Hamming distance as a measure mode is used for matching keypoints of both test image and reference image.	
+5.	Sorted the matches to pick the top matches and remove the noisy matches. Top 85% matches are selected.
+6.	Homography is obtained for the keypoints of both images. RANSAC	(Random sample Consensus) algorithm is used to avoid outliers.
+7.	Apply homography transform the test image according to the original image.
