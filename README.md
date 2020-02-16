@@ -9,7 +9,8 @@ This is a task done for a Utvyakta Internship for academic year 2020.
 4.	You may use any language of your preference to accomplish this task.	
 
 # Approach – Image Registration and Homography using OpenCV | Python
-	This task is accomplished by using Image Registration and Homography using OpenCV. The language which is used for the completion of task is Python 3.0. 
+	This task is accomplished by using Image Registration and Homography using OpenCV.
+	The language which is used for the completion of task is Python 3.0. 
   
 # Image Registration: 
 	Image registration is a digital image processing technique which helps in align different images of the same scene. For instance, sample/test images which is rotated or scaled or offset or combination of all these can align according to the original image.
