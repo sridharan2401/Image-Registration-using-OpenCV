@@ -13,7 +13,8 @@ This is a task done for a Utvyakta Internship for academic year 2020.
 	The language which is used for the completion of task is Python 3.0. 
   
 # Image Registration: 
-	Image registration is a digital image processing technique which helps in align different images of the same scene. For instance, sample/test images which is rotated or scaled or offset or combination of all these can align according to the original image.
+	Image registration is a digital image processing technique which helps in align different images of the same scene. 
+	For instance, sample/test images which is rotated or scaled or offset or combination of all these can align according to the original image.
   
 # Image Registration Process:
 1.	Converted both test image and original image to grayscale.
